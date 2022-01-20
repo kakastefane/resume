@@ -1,0 +1,27 @@
+:root {
+  /* dark mode */
+  --color-primary: #F07724;
+  --color-primary-alt: #FF8C40;
+  --color-bg: #272333;
+  --color-bg-alt: #302D40;
+  --color-text: #EEEFF1;
+ /* Light mode
+  --color-primary: #F07724;
+  --color-primary-alt: #FF8C40;
+  --color-bg: #F5F8F9;
+  --color-bg-alt: #FFFFFF;
+  --color-text: #495F73;
+  */
+  --font-text: "Inter", sans-serif;
+  --font-title: "Roboto Mono", monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 400 1rem var(--font-text);
+}
