@@ -1,26 +1,82 @@
 <template>
-  <header>
-    <img src="http://placehold.it/180" alt="Kariston Stefane" />
-    <h2>Kariston Stefane</h2>
-    <p>Front-End Developer<br />UI/UX Designer</p>
-
-    <ul>
-      <li><a href="#" title="GitHub">GitHub</a></li>
-      <li><a href="#" title="Instagram">Instagram</a></li>
-      <li><a href="#" title="LinkedIn">LinkedIn</a></li>
-    </ul>
-
-    <ul>
-      <li>May 31, 1991</li>
-      <li>Santa Catarina, Brazil</li>
-      <li>eukaristondev@gmail.com</li>
-      <li>+55 48 98478.3746</li>
-    </ul>
-
-    <button>Download CV</button>
+  <header class="header">
+    <nav class="header__nav">
+      <NuxtLink to="#home" class="logo" title="Kariston Stefane">K</NuxtLink>
+      <ul class="menu">
+        <li class="menu__item">
+          <NuxtLink class="menu__link" to="#projects" title="Projects"
+            >Projects</NuxtLink
+          >
+        </li>
+        <li class="menu__item">
+          <NuxtLink class="menu__link" to="#resume" title="Resume"
+            >Resume</NuxtLink
+          >
+        </li>
+        <li class="menu__item">
+          <NuxtLink class="menu__link" to="#contact" title="Contact"
+            >Contact</NuxtLink
+          >
+        </li>
+      </ul>
+    </nav>
   </header>
 </template>
 
-<script>
-export default {}
-</script>
+<style lang="scss" scoped>
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  background-color: rgba($color-bg-alt, 0.5);
+  backdrop-filter: blur(50px);
+  padding: 1.5rem 0;
+
+  &__nav {
+    width: 100%;
+    padding: 0 12.5%;
+
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font: 700 1.5rem $font-title;
+    color: $color-primary;
+    text-decoration: none;
+
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    border: 2px solid $color-primary;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    &__link {
+      text-decoration: none;
+      font-family: $font-title;
+      color: $color-text;
+      transition: color 0.3s;
+
+      &.nuxt-link-active {
+        color: $color-primary;
+      }
+    }
+  }
+}
+</style>

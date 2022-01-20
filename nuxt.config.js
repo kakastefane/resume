@@ -16,14 +16,15 @@ export default {
     ],
     link: [
       { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=JetBrains+Mono:wght@400;700&display=swap' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '~assets/css/global.css'
+    'normalize.css/normalize.css',
+    '@/assets/scss/base.scss'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -36,7 +37,14 @@ export default {
   buildModules: [],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: [
+    '@nuxtjs/style-resources',
+  ],
+
+  styleResources: {
+    scss: ['@/assets/scss/*.scss'],
+    hoistUseStatements: true  // Hoists the "@use" imports. Applies only to "sass", "scss" and "less". Default: false.
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},

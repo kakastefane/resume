@@ -1,0 +1,56 @@
+/* dark mode */
+$color-primary: #24F077;
+$color-primary-alt: #7cf6ad;
+$color-bg: #000000;
+$color-bg-alt: #111111;
+$color-text: #EEEFF1;
+
+/* Light mode
+$color-primary: #24F077;
+$color-primary-alt: #7cf6ad;
+$color-bg: #F5F8F9;
+$color-bg-alt: #FFFFFF;
+$color-text: #495F73; */
+
+$font-text: "Inter", sans-serif;
+$font-title: "JetBrains Mono", monospace;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 400 1rem $font-text;
+  color: $color-text;
+  background-color: $color-bg;
+}
+
+.container {
+  width: 100vw;
+  padding: 12rem 12.5vw 12rem;
+}
+
+.title {
+  font: 700 1.5rem $font-title;
+  margin-bottom: 2rem;
+}
+
+.subtitle {
+  font: 400 1rem $font-text;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: $color-primary;
+  margin-bottom: 1rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.spacer {
+  width: 100%;
+  height: 4rem;
+}
