@@ -33,7 +33,7 @@ export default {
           description:
             'Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ipsam soluta, voluptatem dolor illo consectetur!',
           category: 'UI Design, Front-End',
-          thumb: 'http://placehold.it/300x200',
+          thumb: '/300x200.png',
           link: 'http://google.com',
         },
         {
@@ -42,7 +42,7 @@ export default {
           description:
             'Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ipsam soluta, voluptatem dolor illo consectetur!',
           category: 'UI Design, Front-End',
-          thumb: 'http://placehold.it/300x200',
+          thumb: '/300x200.png',
           link: 'http://google.com',
         },
         {
@@ -51,7 +51,7 @@ export default {
           description:
             'Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ipsam soluta, voluptatem dolor illo consectetur!',
           category: 'UI Design, Front-End',
-          thumb: 'http://placehold.it/300x200',
+          thumb: '/300x200.png',
           link: 'http://google.com',
         },
       ],

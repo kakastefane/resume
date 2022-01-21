@@ -12,10 +12,10 @@
       <h3 class="subtitle">Let's talk</h3>
 
       <div class="grid">
-        <a href="https://wa.me/5548984783746" class="button"
+        <a href="https://wa.me/5548984783746" class="button" target="_blank"
           ><i class="icon-whatsapp"></i>WhatsApp</a
         >
-        <a href="mailto:hi@kariston.dev" class="button"
+        <a href="mailto:hi@kariston.dev" class="button" target="_blank"
           ><i class="icon-envelope"></i>E-mail</a
         >
       </div>
