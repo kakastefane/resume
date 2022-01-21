@@ -29,7 +29,7 @@
   top: 0;
   z-index: 100;
   width: 100%;
-  background-color: rgba($color-bg-alt, 0.5);
+  background-color: rgba($color-bg-alt, 0.9);
   backdrop-filter: blur(50px);
   padding: 1.5rem 0;
 

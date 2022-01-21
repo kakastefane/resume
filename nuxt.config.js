@@ -23,6 +23,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '@/assets/icons/style.css',
     'normalize.css/normalize.css',
     '@/assets/scss/base.scss'
   ],
