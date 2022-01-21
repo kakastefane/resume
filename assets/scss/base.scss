@@ -44,10 +44,24 @@ body {
   letter-spacing: 2px;
   color: $color-primary;
   margin-bottom: 1rem;
+
+  @media (min-width: 1024px) {
+    margin-top: 3px;
+  }
 }
 
 .grid {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 1024px) {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  @media (min-width: 1200px) {
+    justify-content: space-between;
+  }
 }
 
 .spacer {

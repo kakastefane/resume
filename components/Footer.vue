@@ -1,6 +1,9 @@
 <template>
   <footer>
-    <div class="container">Developed by <strong>Kariston Stefane</strong></div>
+    <div class="container">
+      Designed and developed by <strong>Kariston Stefane</strong><br />Built
+      with <strong>NuxtJS</strong>
+    </div>
   </footer>
 </template>
 
@@ -10,11 +13,11 @@ export default {}
 
 <style lang="scss" scoped>
 .container {
-  display: flex;
-  flex-direction: column;
   padding: 1.5rem 12.5vw;
   text-align: center;
   font-size: 0.75rem;
+  background-color: $color-bg-alt;
+  line-height: 150%;
 
   strong {
     color: $color-primary;

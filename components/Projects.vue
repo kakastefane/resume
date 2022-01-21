@@ -71,10 +71,23 @@ export default {
   gap: 2rem;
   list-style: none;
 
+  @media (min-width: 768px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
   &__item {
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
+
+    @media (min-width: 768px) {
+      width: calc(50% - 1.5rem);
+    }
+
+    @media (min-width: 1200px) {
+      width: calc(33% - 1.5rem);
+    }
   }
 
   &__thumb {

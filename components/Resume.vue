@@ -53,15 +53,13 @@
 
       <div class="spacer"></div>
 
-      <div class="grid">
-        <h3 class="subtitle">Techs</h3>
-        <ul class="tech">
-          <li v-for="tech in techs" :key="tech.id" class="tech__item">
-            <span class="tech__icon" v-html="tech.icon"></span>
-            {{ tech.title }}
-          </li>
-        </ul>
-      </div>
+      <h3 class="subtitle">Techs</h3>
+      <ul class="tech">
+        <li v-for="tech in techs" :key="tech.id" class="tech__item">
+          <span class="tech__icon" v-html="tech.icon"></span>
+          {{ tech.title }}
+        </li>
+      </ul>
     </div>
   </section>
 </template>
@@ -186,6 +184,10 @@ export default {
   gap: 2rem;
   list-style: none;
 
+  @media (min-width: 1200px) {
+    width: 75%;
+  }
+
   &__item {
     display: flex;
     flex-direction: column;
@@ -261,6 +263,10 @@ export default {
   justify-content: center;
   list-style: none;
 
+  @media (min-width: 1024px) {
+    flex-wrap: nowrap;
+  }
+
   &__item {
     display: flex;
     width: 33%;
@@ -274,6 +280,14 @@ export default {
     font-size: 0.75rem;
     font-family: $font-title;
     border: 1px solid $color-bg-alt;
+
+    @media (min-width: 768px) {
+      width: 20%;
+    }
+
+    @media (min-width: 1024px) {
+      width: 12%;
+    }
   }
 
   &__icon {

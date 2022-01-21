@@ -9,6 +9,48 @@
         voluptatibus, id repudiandae alias laborum.
       </p>
       <button class="button">Download CV</button>
+
+      <div class="spacer"></div>
+
+      <h2 class="subtitle">Get in touch</h2>
+      <ul class="social">
+        <li class="social__item">
+          <a
+            href="https://github.com/kakastefane"
+            title="GitHub"
+            class="social__link"
+            target="_blank"
+            ><i class="icon-github"></i
+          ></a>
+        </li>
+        <li class="social__item">
+          <a
+            href="https://linkedin.com/in/karistonstefane"
+            title="Linkedin"
+            class="social__link"
+            target="_blank"
+            ><i class="icon-linkedin"></i
+          ></a>
+        </li>
+        <li class="social__item">
+          <a
+            href="https://instagram.com/kakastefane"
+            title="Instagram"
+            class="social__link"
+            target="_blank"
+            ><i class="icon-instagram"></i
+          ></a>
+        </li>
+        <li class="social__item">
+          <a
+            href="https://twitter.com/kakastefane"
+            title="Twitter"
+            class="social__link"
+            target="_blank"
+            ><i class="icon-twitter"></i
+          ></a>
+        </li>
+      </ul>
     </div>
   </section>
 </template>
@@ -39,6 +81,20 @@ export default {}
     line-height: 100%;
     color: $color-primary;
   }
+
+  @media (min-width: 768px) {
+    font-size: 1.25rem;
+
+    strong {
+      font-size: 3rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    strong {
+      font-size: 3.5rem;
+    }
+  }
 }
 
 .about {
@@ -53,5 +109,25 @@ export default {}
   border-radius: 0.25rem;
   padding: 1rem 1.5rem;
   font: 700 1rem $font-title;
+}
+
+.social {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+
+  &__item {
+    display: flex;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $color-text;
+    font-size: 1.5rem;
+
+    &:hover {
+      color: $color-primary;
+    }
+  }
 }
 </style>
