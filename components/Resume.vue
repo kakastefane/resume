@@ -75,8 +75,20 @@ export default {
           period: 'jul 2014 - present',
           company: 'Agência WEBi',
           type: 'Full-time',
-          location: 'Florianpópolis, SC - Brazil',
-          description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ipsam soluta, voluptatem dolor illo consectetur!`,
+          location: 'Florianópolis, SC - Brazil',
+          description: `I work in the design and development of websites, e-commerces, landing pages, using HTML, CSS,
+Javascript and WordPress as CMS. I also work creating user interfaces in Figma, making SEO and performance tweaks (for Google Web
+Vitals).`,
+        },
+        {
+          id: 4,
+          title: 'Front-End Developer and UI Designer',
+          period: 'jan 2014 - present',
+          company: 'Me',
+          type: 'Freelancer',
+          location: 'São José, SC - Brazil',
+          description: `I work in the design and development of websites and landing pages, using HTML, CSS, Javascript
+and WordPress as CMS. I also work creating user interfaces with Figma and graphic design (branding) with adobe Illustrator.`,
         },
         {
           id: 2,
@@ -85,44 +97,29 @@ export default {
           company: 'Plinngbr',
           type: 'Freelancer',
           location: 'Florianpópolis, SC - Brazil',
-          description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ipsam soluta, voluptatem dolor illo consectetur!`,
+          description: `I worked in the design and development of websites and landing pages, using HTML, CSS, Javascript
+and WordPress as CMS.`,
         },
         {
           id: 3,
-          title: 'Web Designer',
+          title: 'Web Designer and Developer',
           period: 'jul 2011 - jun 2014',
           company: 'NacionalVOX',
           type: 'Full-time',
           location: 'Florianpópolis, SC - Brazil',
-          description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ipsam soluta, voluptatem dolor illo consectetur!`,
+          description: `I worked in the design and development of websites, e-commerces, landing pages and web
+systems, using HTML, CSS, Javascript.`,
         },
       ],
       courses: [
         {
           id: 1,
           title: 'Analysis and Systems Development',
-          period: '2018 - 2020',
+          period: '2017 - 2020',
           company: 'Estácio de Sá',
           type: 'Tech graduation',
           location: 'Florianpópolis, SC - Brazil',
           description: `The Systems Analysis and Development course teaches how to design, document, specify, test, implement and maintain computer systems and software.`,
-        },
-        {
-          id: 2,
-          title: 'Full-Stack Developer',
-          period: '2020 - 2021',
-          company: 'Cataline',
-          type: 'Bootcamp',
-          location: 'Brazil',
-          description: `VueJS; NuxtJS; Vuex; AdonisJS; Atomic Design; Automated tests.`,
-        },
-        {
-          id: 3,
-          title: 'Extra Courses',
-          company: 'Udemy',
-          type: 'Several Teachers',
-          location: 'Brazil',
-          description: `JavaScript; ReactJS; Git and Github; Gatsby; NextJS; Docker; Gulp; Sass; Webpack; NPM-Scripts.`,
         },
       ],
       techs: [

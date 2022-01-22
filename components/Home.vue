@@ -3,12 +3,13 @@
     <div class="container">
       <h1 class="iam">Hello, I'am <strong>Kariston Stefane</strong></h1>
       <p class="about">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolore
-        consectetur molestiae obcaecati ad harum totam rem magnam, numquam
-        nobis, sapiente voluptates aspernatur reiciendis dignissimos
-        voluptatibus, id repudiandae alias laborum.
+        I'm a Front-End Developer and UI Designer, graduated in Systems Analysis
+        and Development, working in the web development area for over 10 years.
+        I currently work at WEBi, a Digital Marketing Agency, serving several
+        clients and creating amazing websites for them and also as a Freelancer
+        with some clients.
       </p>
-      <button class="button">Download CV</button>
+      <!--<button class="button">Download CV</button>-->
 
       <div class="spacer"></div>
 
@@ -48,6 +49,15 @@
             class="social__link"
             target="_blank"
             ><i class="icon-twitter"></i
+          ></a>
+        </li>
+        <li class="social__item">
+          <a
+            href="mailto:hi@kariston.dev"
+            title="E-mail"
+            class="social__link"
+            target="_blank"
+            ><i class="icon-envelope"></i
           ></a>
         </li>
       </ul>

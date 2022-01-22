@@ -3,8 +3,8 @@
     <div class="container">
       <h2 class="title">Contact</h2>
       <p class="text">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam illum
-        magni aperiam, cumque maiores alias est error iusto sint tenetur.
+        My inbox is always open. If you want to develop a project, have a<br />
+        question, or just want to say hi, I'll try my best to answer it for you!
       </p>
 
       <div class="spacer"></div>

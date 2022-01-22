@@ -5,12 +5,14 @@
 
       <ul class="project">
         <li v-for="project in projects" :key="project.id" class="project__item">
-          <NuxtLink to="/">
-            <img class="project__thumb" :src="project.thumb" alt="teste" />
-          </NuxtLink>
+          <img class="project__thumb" :src="project.thumb" alt="teste" />
           <h3 class="project__title">
             {{ project.title }}
-            <a class="project__link" :href="project.link" title="Go to project"
+            <a
+              class="project__link"
+              :href="project.link"
+              target="_blank"
+              title="Go to project"
               ><i class="icon-link"></i
             ></a>
           </h3>
@@ -29,30 +31,57 @@ export default {
       projects: [
         {
           id: 1,
-          title: 'Project Title',
+          title: 'Acervo',
           description:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ipsam soluta, voluptatem dolor illo consectetur!',
-          category: 'UI Design, Front-End',
-          thumb: '/300x200.png',
-          link: 'http://google.com',
+            'UI Design and Front-end developed at the WEBi Agency for this.',
+          category: 'HTML, CSS, Javascript, WordPress',
+          thumb: '/projects/acervo.jpg',
+          link: 'http://acervonet.com.br',
         },
         {
           id: 2,
-          title: 'Project Title',
+          title: 'Instituto Bettina Moritz',
           description:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ipsam soluta, voluptatem dolor illo consectetur!',
-          category: 'UI Design, Front-End',
-          thumb: '/300x200.png',
-          link: 'http://google.com',
+            'UI Design and Front-end developed at the WEBi Agency for this client.',
+          category: 'HTML, CSS, Javascript, Wordpress',
+          thumb: '/projects/bettina.jpg',
+          link: 'http://bettinamoritz.com.br',
         },
         {
-          id: Math.random(),
-          title: 'Project Title',
+          id: 3,
+          title: 'Escola Guga Kuerten',
           description:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ipsam soluta, voluptatem dolor illo consectetur!',
-          category: 'UI Design, Front-End',
-          thumb: '/300x200.png',
-          link: 'http://google.com',
+            'UI Design and Front-end developed at the WEBi Agency for this client.',
+          category: 'HTML, CSS, Javascript, Wordpress',
+          thumb: '/projects/escolaguga.jpg',
+          link: 'http://escolaguga.com.br',
+        },
+        {
+          id: 4,
+          title: 'Kauffer Pilates',
+          description:
+            'UI Design and Front-end developed at the WEBi Agency for this client.',
+          category: 'HTML, CSS, Javascript, Wordpress',
+          thumb: '/projects/kauffer.jpg',
+          link: 'http://kaufferpilates.com.br',
+        },
+        {
+          id: 5,
+          title: 'Qualyvist',
+          description:
+            'UI Design and Front-end developed at the WEBi Agency for this client.',
+          category: 'HTML, CSS, Javascript, Wordpress',
+          thumb: '/projects/qualyvist.jpg',
+          link: 'http://qualyvist.com.br',
+        },
+        {
+          id: 6,
+          title: 'Solare Imóveis',
+          description:
+            'UI Design and Front-end developed at the WEBi Agency for this client.',
+          category: 'HTML, CSS, Javascript, Wordpress',
+          thumb: '/projects/solare.jpg',
+          link: 'http://solareimoveis.com.br',
         },
       ],
     }
